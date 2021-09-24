@@ -1,0 +1,157 @@
+
+body{
+  font-family: sans-serif;
+    text-align:center;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Montserrat-bold';
+}
+
+p{
+  color: #8f8f8f;
+}
+/* Heding */
+
+.big-heading{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+}
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+.navbar-nav{
+ margin-left: 50%;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+.nav-item{
+  padding:0 10px;
+}
+/* Download button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* Title section */
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+    text-align: left;
+}
+/* Title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+  /* z-index: -1; */
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+}
+ /* Feature section*/
+ #features{
+
+   position: relative;
+   z-index: 1;
+ }
+ .feature-box {
+   padding: 2%;
+ }
+.feature-title{
+  font-family:'Montserrat';
+  font-size: 2rem;
+}
+
+ .icon{
+   color: #ef8172;
+   margin-bottom: 1rem;
+ }
+ i:hover{
+   color: #ff4c68;
+ }
+
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin:4px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom:2%;
+}
+.press-logo{
+  width: 16%;
+  margin:20px 20px 50px;
+}
+
+
+
+/* pricing */
+#pricing{
+  padding:10%;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+/* call to action */
+#cta{
+  font-family: 'Montserrat';
+}
+.cta-para{
+  font-family:'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+.cta-btn:hover{
+     background-color: #f3bcc4;
+}
+
+
+
+.footer-icon{
+  margin:10px;
+}
